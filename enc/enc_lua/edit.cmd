@@ -1,4 +1,3 @@
-setlocal
 
 set document=%~dp0%1
 set tmpfile=%document%.tmp.tsi
@@ -12,3 +11,4 @@ set converter=..\tools\convert.py
 del %tmpfile% || exit 1
 
 endlocal
+https://github.dev/FarGroup/FarManager/blob/f9227d4616da6490d1fcf41355b3d0873f8eab21/_build/vc/all.sln#L20
